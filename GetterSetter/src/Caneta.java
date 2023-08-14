@@ -1,15 +1,19 @@
 public class Caneta 
 {
     private String modelo;
-    private float ponta;
+    private double ponta;
     private boolean tampada;
     private String cor;
 
+
     //Construtor
-    public Caneta() 
+    public Caneta(String modelo, String cor, double ponta) 
     {
-        this.tampar(); // inicia a caneta tampada
-        this.cor = "Azul";
+        tampar(); // inicia a caneta tampada
+        this.cor = cor;
+        this.modelo = modelo;
+        this.ponta = ponta;
+    
     }
     //getters e setters
     public String getModelo()
@@ -27,7 +31,7 @@ public class Caneta
         return this.ponta;
     }
 
-    public void setPonta(float p)
+    public void setPonta(double p)
     {
         this.ponta = p;
     }
