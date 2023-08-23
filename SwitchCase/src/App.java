@@ -45,7 +45,7 @@ public class App {
         JOptionPane.showConfirmDialog(null, informacoesPersonagem, "Personagem", JOptionPane.DEFAULT_OPTION, JOptionPane.QUESTION_MESSAGE, icon);
 
         //int diaSemana = Integer.parseInt(JOptionPane.showInputDialog("Qual é o dia da semana ?"));
-        /*
+        /*cd
          *  1 - domingo -> final de semana
             2 - segunda
             3 - terça
