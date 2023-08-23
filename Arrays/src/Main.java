@@ -1,15 +1,16 @@
 import javax.swing.JOptionPane;
 
-public class App {
-    public static void main(String[] args) throws Exception {
-        String[] loginOptions = new String[] { "Logar", "Criar Conta", "Apagar conta", "Sair" };
-        String[] userOptions = new String[] { "Trocar de usuario", "Fazer post", "Sair" };
-        int selectedOption; // opção escolhida pelo usuario
+public class Main {
+    //== Opções de login
+    static String[] loginOptions = new String[] { "Logar", "Criar Conta", "Apagar conta", "Sair" };
+    // static String[] userOptions = new String[] { "Trocar de usuario", "Fazer post", "Sair" }; //implementar futuramente
+    static int selectedOption; // opção escolhida pelo usuario
 
-        boolean exit = false;
-        boolean isCreated = false; // verifica se a conta esta criada
-        boolean isLogged = false; // veverifica se a conta esta lotada
-        boolean isDeleted = false;
+    static boolean exit = false;
+    static boolean isCreated = false; // verifica se a conta esta criada
+    static boolean isLogged = false; // veverifica se a conta esta lotada
+    static boolean isDeleted = false;
+    public static void main(String[] args) throws Exception {
 
         // repete o programa até o usuario sair
         while (!exit) {
