@@ -1,18 +1,23 @@
-## Getting Started
+# Tela de login simples feita em java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Requisitos
+     - será necessário ter o JDK instalada na sua máquina, recomendo a mais recente para evitar conflitos de compatibilidade.
+    
+## Como usar ?
 
-## Folder Structure
+### 1 - Faça o download do arquivo para uma pasta. Você pode baixar manualmente ou usar o git clone.
+#### git clone https://github.com/pedrocauan/TelaDeLogin.git
 
-The workspace contains two folders by default, where:
+### 2 - Entre na pasta que fez o download e vá até a pasta src, clique com o botão direito e abraa um terminal ou cmd nesta pasta.
+### você também pode ABRIR O VISUAL STUDIO CODE DENTRO DA PASTA e digitar: 
+#### cd src
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### 3 - no terminal do linux, windows ou do vscode compile o arquivo .java para um bytecode. Ele irá gerar um arquivo .class na pasta src
+#### javac TelaDeLogin.java
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### 4 - inicie o programa
+#### java TelaDeLogin
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
