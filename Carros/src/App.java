@@ -27,6 +27,7 @@ public class App {
 
         c1.imprimir();
         c2.imprimir();
+        
         System.out.println("Imprimindo c3");
         c3.imprimir();
 
